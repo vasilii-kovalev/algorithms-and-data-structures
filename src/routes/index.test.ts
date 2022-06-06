@@ -7,6 +7,9 @@ test('Render', () => {
 	render(MainPage);
 
 	expect(
-		screen.getByRole('heading', { name: 'Welcome to SvelteKit', level: 1 })
+		screen.getByRole('heading', {
+			name: 'Algorithms and data structures',
+			level: 1
+		})
 	).toBeInTheDocument();
 });
