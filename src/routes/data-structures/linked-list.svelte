@@ -5,6 +5,7 @@
 		removeNode,
 		type BasicNodeType
 	} from 'src/data-structures/linked-list';
+	import { parentRouteURL } from 'src/stores/routes';
 	import { getLinkedListNodes } from 'src/utilities/data-structures/linked-list';
 
 	type NodeType = string;
@@ -24,6 +25,14 @@
 
 	$: nodes = getLinkedListNodes(linkedListHead);
 </script>
+
+<svelte:head>
+	<title>Data structures | Linked list</title>
+</svelte:head>
+
+<h1>Linked list</h1>
+
+<a href={$parentRouteURL}>Back to data structures</a>
 
 <form on:submit|preventDefault={addNodeHandler}>
 	<input type="text" name="value" required bind:value />

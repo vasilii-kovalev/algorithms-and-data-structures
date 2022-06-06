@@ -1,7 +1,12 @@
-<h1 class="accent">Welcome to SvelteKit</h1>
-<p>
-	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<svelte:head>
+	<title>Algorithms and data structures</title>
+</svelte:head>
+
+<h1 class="accent">Algorithms and data structures</h1>
+
+<ul>
+	<a href="/data-structures">Data structures</a>
+</ul>
 
 <style>
 	.accent {
