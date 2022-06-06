@@ -4,8 +4,8 @@
 		createBasicLinkedList,
 		removeNode,
 		type BasicNodeType
-	} from '../../data-structures/linked-list';
-	import { getLinkedListNodes } from '../../utilities/data-structures/linked-list';
+	} from 'src/data-structures/linked-list';
+	import { getLinkedListNodes } from 'src/utilities/data-structures/linked-list';
 
 	type NodeType = string;
 

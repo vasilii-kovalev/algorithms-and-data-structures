@@ -1,9 +1,6 @@
 import isNil from 'lodash/isNil';
 
-import type {
-	BasicNode,
-	BasicNodeType
-} from '../../../data-structures/linked-list';
+import type { BasicNode, BasicNodeType } from 'src/data-structures/linked-list';
 
 const getLinkedListNodes = <Type>(
 	head: BasicNode<Type>
